@@ -104,5 +104,5 @@ npm i feishu-login -S
 appId | 飞书应用app id | ''
 redirectUrl | 配置重定向页面URL（需要将redirectUrl配置到飞书应用重定向URL中，否则会提示`请求非法, 请联系应用开发者`） | ''
 ajaxConfig | 后端接口配置 | {}
-success | 接口成功的回调。第一个参数为后端接口response，第二个参数为页面真正的URL | 300 * 1024
-error | 接口失败的回调。参数为error | ''
+success | 接口成功的回调。第一个参数为后端接口response，第二个参数为页面真正的URL | function () {}
+error | 接口失败的回调。参数为error | function () {}
